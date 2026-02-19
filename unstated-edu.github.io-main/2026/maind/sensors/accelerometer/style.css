@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: #000;
+  gap: 14px;
+}
+.scene {
+  perspective: 900px;
+}
+.phone {
+  width: 130px;
+  height: 240px;
+  background: #000;
+  transform-style: preserve-3d;
+}
+.row {
+  display: flex;
+  gap: 10px;
+}
+#values {
+  text-align: center;
+}
